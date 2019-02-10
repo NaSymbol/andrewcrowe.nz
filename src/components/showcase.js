@@ -1,3 +1,21 @@
-import React from "react"
+import React, {Component} from 'react';
 
-export default () => <div>Portfolio Site</div>
+
+class Showcase extends Component {
+
+    render(){
+        return(
+
+
+
+
+
+
+
+            
+        )
+    }
+}
+
+
+export default Showcase
