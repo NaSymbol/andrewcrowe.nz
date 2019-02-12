@@ -10,6 +10,10 @@
 <h2>Tech Used</h2>
 <p>Gatsby.JS, React, CSS3,
 
+<h3>Issues</h3>
+
+
+
 
 
 

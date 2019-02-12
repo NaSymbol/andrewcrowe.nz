@@ -114,12 +114,12 @@ background-image: url("../images/bgTexture4.png");
 
 
 
-//Social Links footer section
-.socialLinks{
+
+.social{
 
 @media(min-width:768px){
   float:left;
-  display:block;
+
   max-width:50%;
   padding-left:10px;
   box-sizing: border-box;
@@ -127,6 +127,7 @@ background-image: url("../images/bgTexture4.png");
 @media(min-width:1024px){
   padding-top:10px;
 
+}
 }
 
 .link1{
@@ -157,7 +158,7 @@ p{
 }
 
 }
-}
+
 
 //profile footer section
 .profileSection{

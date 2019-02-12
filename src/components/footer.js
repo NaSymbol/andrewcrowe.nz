@@ -24,7 +24,7 @@ class Footer extends Component{
                     </div>
                 </div>
     
-                <div className="socialLinks">
+                <div className="social">
                     <p className="calltoAction"> Call me on <b>027 200 6439</b> or email <b>1@andrewcrowe.nz</b></p>
 
                     <div className="link1">
