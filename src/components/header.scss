@@ -1,0 +1,51 @@
+
+    .logo {
+        float:right;
+        background-image: url(../images/logoHD.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 250px;
+        height: 50px;
+        margin-top: 30px;
+        margin-right: 10px;
+
+        @media(min-width: 768px){
+        position: absolute;
+        top: 0;
+        bottom: 0;
+      
+
+        margin-top: 30px;
+        margin-left: 40px;
+        // display:none;
+        }
+    }
+    
+
+    .container-fluid{
+        height:100px;
+        background-color:rgb(61, 61, 61);
+    }
+
+    nav.nav-top{
+        display:none;
+    
+        @media(min-width:768px) {
+        display: block;
+        float:right;
+        color:white;
+        // margin-left:20px;
+        ul{
+            margin-right:40px;
+            margin-top:40px;
+        }
+      
+        li{
+            display:inline-block;
+            margin-left:20px;
+            font-size:25px;
+            // margin-top:20px;
+        }
+        }
+    }
+    

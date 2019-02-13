@@ -9,7 +9,7 @@ class Showcase extends Component {
     render(){
         return(
                 <div>
-                    <img className="profile-image" src={profile} alt=""/>
+                    {/* <img className="profile-image" src={profile} alt=""/> */}
 
 
 

@@ -31,28 +31,28 @@ class Footer extends Component{
                         <a href="https://nz.linkedin.com/in/nasymbol">
                             <img src={linkedin} alt=""/>
                         </a>
-                        <p>My Linkedin Account showcasing projects.</p>
+                        <p>My Linkedin Account</p>
                     </div>
     
                     <div className="link1">
                         <a href="http://codepen.io/NaSymbol/">
                             <img src={codePen} alt=""/>
                         </a>
-                        <p>My Codepen account with a display of different technologies.</p>
+                        <p>My Codepen account</p>
                     </div>
     
                     <div className="link1">
                         <a href="https://github.com/NaSymbol">
                             <img src={github} alt=""/>
                         </a>
-                        <p>Check out Github profile to see codeing examples.</p>
+                        <p>Github profile</p>
                     </div>
     
                     <div className="link1">
                         <a href="https://www.behance.net/NaSymbol">
                             <img src={behanced} alt=""/>
                         </a>
-                        <p>My Behanced profile showcasing all graphic designs.</p>
+                        <p>My Behanced profile</p>
                     </div>
     
                 </div>
