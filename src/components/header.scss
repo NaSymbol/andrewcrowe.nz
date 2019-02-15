@@ -46,8 +46,14 @@
             font-size:25px;
             // margin-top:20px;
         }
-        li:hover{
-            color:gray;
+        li{
+           
+            a{
+                color:white;
+            }
+            a:hover{
+                color:gray;
+            }
         }
         }
     }

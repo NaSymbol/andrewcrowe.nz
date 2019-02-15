@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { Link } from "gatsby"
 import "./Header.scss";
 //import "./svg-functions";
 //import "./snap.svg-min";
@@ -11,10 +12,10 @@ class Header extends Component{
             <div className="container-fluid">
 <nav className="nav-top">
 <ul>
-           <li>Portfolio</li>
-           <li>Blog</li>
-           <li>About</li>
-           <li>Contact</li>
+           <li><Link to="./portfolio/main">Portfolio</Link></li>
+           <li><Link to="./blog/main">Blog</Link></li>
+           <li> <Link to="./about">About</Link></li>
+           <li><Link to="./contact">contact</Link></li>
        </ul>
 </nav>
     <div className="logo">
