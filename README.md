@@ -11,7 +11,7 @@
 <p>Gatsby.JS, React, CSS3,
 
 <h3>Issues</h3>
-
+<p>
 
 
 
