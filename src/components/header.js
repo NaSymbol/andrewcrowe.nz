@@ -18,9 +18,11 @@ class Header extends Component{
            <li><Link to="./contact">contact</Link></li>
        </ul>
 </nav>
+<Link to="./">
     <div className="logo">
-
+        
     </div>
+    </Link>
 
 
 </div>

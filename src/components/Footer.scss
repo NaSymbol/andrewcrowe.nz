@@ -61,7 +61,8 @@ table {
     //Width: 400px;
 }
 @media(min-width: 1024px){
-  Width:360px ;
+  // Width:260px ;
+  width:100%;
 }
 }
 
@@ -83,7 +84,7 @@ p{
 footer{
 background-color: grey;
 padding-top:15px;
-margin-top:-10px;
+// margin-top:-10px;
 color:white;
 overflow: auto;
 background-image: url("../images/bgTexture4.png");
@@ -174,7 +175,8 @@ p{
     }
     @media(min-width: 1024px){
       float:left;
-      max-width:504px;
+      max-width:35%;
+      margin-right:50px;
     }
    a{
      display:block;
@@ -200,7 +202,7 @@ p{
     }
     @media(min-width:1024px){
      font-size: 18px;
-     width:400px;
+    //  width:400px;
      //font-weight: bold;
     }
    }

@@ -8,6 +8,7 @@ import logo from './svgP.svg';
 import "./index.scss";
 import Showcase from '../components/showcase';
 import Helmet from 'react-helmet'
+import CardSection from '../components/cardSection';
 
 //import "./svg-function.js";
 class Index extends Component {
@@ -40,6 +41,7 @@ class Index extends Component {
             <
             /object>
             <Showcase/>
+            
              <Footer / > < /div>
         )
     }
