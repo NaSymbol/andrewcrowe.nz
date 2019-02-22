@@ -1,9 +1,7 @@
 import React, {
     Component
 } from 'react';
-
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import Layout from '../components/layout';
 
 
 class Contact extends Component{
@@ -12,11 +10,9 @@ class Contact extends Component{
     
     render() {
         return ( 
-            <div>
-                <Header/>
-                <Footer/>
-             hello   
-            </div>
+            <Layout>
+            <p>404 Can't find the page you are looking for.</p>
+          </Layout>
 
         )
     }

@@ -21,7 +21,7 @@
         // display:none;
         &:hover{
             //TODO: better quality image need for hover
-            // background-image: url(../images/logo-alt.png);
+            background-image: url(../images/logo-alt2.png);
             
         }
         }
@@ -69,3 +69,22 @@
         }
     }
     
+
+
+    .navMenu{
+        margin-bottom: 7px;
+        width: 50px;
+        height: 10px;
+        background-color: white;
+    }
+
+    .menu--small{
+        display:block;
+        margin-left: 33px;
+    margin-top: 30px;
+    float: left;
+        
+        @media(min-width: 768px){
+            display:none;
+        }
+    }

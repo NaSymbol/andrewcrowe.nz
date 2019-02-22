@@ -3,8 +3,8 @@ import React, {
 } from 'react';
 
 
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+
+import Layout from '../components/layout';
 
 class About extends Component{
 
@@ -12,12 +12,9 @@ class About extends Component{
     
     render() {
         return ( 
-            <div>
-                 <Header/ >
-                <Footer/>
-             hello   
-            </div>
-
+                <Layout>
+                  <p>about me</p>
+                </Layout>
         )
     }
 }
