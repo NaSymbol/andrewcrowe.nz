@@ -3,11 +3,21 @@ import React, {
 } from 'react';
 import "./main.scss";
 
-
-
 import Layout from '../../components/layout'
 
+function ShowcaseItems(props){
+  return(
+                <div className="list--item">
+                            <img src="https://via.placeholder.com/500x250"/>
+                            <div className="list--item--text">text</div>
+                </div>
+    
+  )
+
+}
+
 class About extends Component{
+
 
 
     
@@ -22,24 +32,18 @@ class About extends Component{
                   </div>
 
                   <div className="list">
-
-                  {/* image and text for each portfolio piece */}
-                    <div className="list--item">
-                            <div> logo</div>
-                            <div>text</div>
-                    </div>
-                {/* image and text for each portfolio piece */}
-                <div className="list--item">
-                            <div> logo</div>
-                            <div className="list--item--text">text</div>
-                    </div>
-                                    {/* image and text for each portfolio piece */}
-                                    <div className="list--item">
-                            <div> logo</div>
-                            <div>text</div>
-                    </div>
-
+                  <ShowcaseItems/>
+                  <ShowcaseItems/>
+                  <ShowcaseItems/>
+                  <ShowcaseItems/>
+                  <ShowcaseItems/>
+                  <ShowcaseItems/>
+                  <ShowcaseItems/>
+                  <ShowcaseItems/>
+                  <ShowcaseItems/>
                   </div>
+
+                  
                 </Layout>
         )
     }
