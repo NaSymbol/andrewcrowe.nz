@@ -1,0 +1,54 @@
+// VARIABLES
+$mobileView: 320px;
+$tableView: 768px;
+$desktopView: 1024px;
+$textBlack:rgb(138, 137, 137);
+
+
+
+.template{
+
+    p{
+        color:$textBlack;
+    }
+    margin-top:50px;
+    margin-bottom:50px;
+    
+@media(min-width: $desktopView){
+    display:flex;
+
+}
+    
+
+
+img{
+    width:100%;
+    // height:30%;
+    @media(min-width: $desktopView){
+        width:auto;
+    }
+}
+
+
+.template--content{
+    padding:15px;
+    h1{
+        padding: 10px 10px;
+        text-align: center;
+        color:$textBlack;
+        font-size: 3rem;
+        @media(min-width: $desktopView){
+            font-size:5rem;
+        }
+    }
+    h2{
+        text-align: center;
+        color:$textBlack;
+        font-size:1.1rem;
+        @media(min-width: $desktopView){
+            font-size:2rem;
+        }
+    }
+}
+
+}

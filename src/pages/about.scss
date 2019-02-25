@@ -1,0 +1,43 @@
+// VARIABLES
+$textBlack: gray;
+$mobileView: 320px;
+$tableView: 768px;
+$desktopView: 1024px;
+
+.AboutSection{
+display:flex;
+flex-direction: column;
+@media(min-width:$desktopView){
+        width:50%;
+        margin: 0 auto;
+}
+    h1{
+        // font-size:42px;
+        padding: 10px 10px;
+        text-align: center;
+        color:$textBlack;
+        font-size: 5rem;
+    }
+    h2{
+        text-align: center;
+        color:$textBlack;
+        font-size:2rem;
+    }
+
+    img{
+        // width:100%;
+        @media(min-width: $desktopView){
+            // width:50%;
+        }
+    }
+    p{
+        padding: 10px 10px;
+        color:$textBlack;
+        // font-size:1.1rem;
+        @media(min-width:$desktopView){
+            // width:50%;
+        }
+    }
+}
+
+

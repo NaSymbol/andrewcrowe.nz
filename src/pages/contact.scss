@@ -1,0 +1,45 @@
+// VARIABLES
+$textBlack: gray;
+$mobileView: 320px;
+$tableView: 768px;
+$desktopView: 1024px;
+
+
+.ContactPage{
+ 
+    
+    div{
+        // background-color: #f2f2f2;
+        padding-top:20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 20px;
+
+        // margin: 0 auto;
+        // max-width: 50%;
+    }
+
+    h1{
+        // margin-top:20px;
+        font-size: 32px;
+        text-align: center;
+        margin-bottom: 10px;
+        color:$textBlack;
+        font-size:5rem;
+    }
+    h2{
+        text-align: center;
+        color:$textBlack;
+        font-size:1rem;
+    }
+    p{
+        text-align: center;
+        color:$textBlack;
+        b{
+            font-weight: bold;
+        }
+    }
+
+
+
+}

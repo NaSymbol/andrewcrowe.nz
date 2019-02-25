@@ -7,6 +7,7 @@ import Footer from '../components/Footer';
 import logo from './svgP.svg';
 import "./index.scss";
 import Showcase from '../components/showcase';
+import ContactSection from '../components/contactSection';
 import Helmet from 'react-helmet'
 // import CardSection from '../components/cardSection';
 
@@ -41,7 +42,7 @@ class Index extends Component {
             <
             /object>
             <Showcase/>
-            
+            <ContactSection/>
              <Footer / > < /div>
         )
     }

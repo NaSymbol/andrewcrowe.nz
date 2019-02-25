@@ -1,0 +1,64 @@
+// VARIABLES
+$textBlack: gray;
+$mobileView: 320px;
+$tableView: 768px;
+$desktopView: 1024px;
+
+// CONTACT FORM HEADING
+.container form{
+  // width:50%;
+// margin:0 auto;
+  @media(min-width: $desktopView){
+      width:50%;
+      margin: 0 auto;
+
+  }
+}
+.contact-section-heading{
+  margin-bottom:20px;
+  h1{
+  font-size:40px;
+  text-align: center; 
+  color: $textBlack;
+  }
+  
+
+}
+
+//  CONTACT FORM SECTION
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+  }
+  
+ 
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    // width:50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
