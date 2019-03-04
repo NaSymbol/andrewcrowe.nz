@@ -1,0 +1,149 @@
+$mobileView: 320px;
+$tabletView: 1024px;
+$desktopView: 1440px;
+
+
+#svg{
+    background-size: 100%;
+    // background-image: url(./components/svg-garden/bg-svg.png);
+    background-image: url(./bg-svg.png);
+    background-repeat: no-repeat;
+    // background-position: 20px 20px;
+    // background-size: 75%;
+    height:100%;
+    // background: url(./bg-mobile.png) no-repeat center center fixed; 
+    // @media(min-width: $tabletView){
+    // background-image: url(./components/svg-garden/bg-svg.png);
+    // }
+}
+
+
+#path20236, #path20242{
+    display:none;
+}
+
+
+#sunG{
+    transform-origin:-422px 407px;
+    transform: translate(1500px, -300px) rotate(0deg);
+    animation-name: sunRotate;
+    animation-direction: alternate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes sunRotate {
+    0% {transform: translate(1500px, -300px)  rotate(-10deg);}
+    100% {transform: translate(1500px, -300px)  rotate(10deg) scale(.9);}
+  }
+
+#flowerHead{
+    // display:none;
+    // transform: rotate(90deg);
+    transform-origin: 600px 350px;
+    animation-name: flowerHeadFrame;
+    animation-direction: alternate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+//angle to which the flower heads change between
+@keyframes flowerHeadFrame {
+    0% {transform: rotate(-25deg);}
+    100% {transform: rotate(25deg);}
+  }
+
+
+#cloudsA{
+    transform: translate(500px, -300px);
+    animation-name: CloudsMoveA;
+    animation-direction: normal;
+    animation-duration: 120s;
+    animation-iteration-count: infinite;
+    // transform-origin: -50px -50px;
+}
+#cloudsB{
+    transform: translate(700px, -200px);
+    animation-name: CloudsMoveB;
+    animation-direction:normal;
+    animation-duration: 90s;
+    animation-iteration-count: infinite;
+    animation-delay: 8s;
+
+}
+
+
+@keyframes CloudsMoveA {
+    0% {transform: translate(700px, -200px);}
+    100% {transform: translate(-1500px, -300px);}
+
+}
+
+@keyframes CloudsMoveB {
+    0% {transform: translate(500px, -300px);}
+    100% {transform: translate(-1500px, -300px);}
+
+}
+
+
+
+#snail{
+    transform: translate(1303.6px, 651px) scale(.5);
+    animation-name: snailMove;
+    animation-direction:alternate-reverse;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes snailMove {
+    0% {transform: translate(1303.6px, 651px) scale(.5);}
+    100% {transform: translate(1293.6px, 651px) scale(.5);}
+
+}
+
+#worm{
+    transform: translate(203.7px, 551px) scale(0.2);
+    animation-name: wormMove;
+    animation-direction:alternate-reverse;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+
+}
+
+
+@keyframes wormMove {
+    0% {transform: translate(203.7px, 551px) scale(0.2);}
+    100% {transform:translate(213.7px, 551px) scale(0.2);}
+
+}
+
+
+#worm, #snail, #use6457,#sunG, #use5499,#use4365, #use4368, #use6465, #use6455,#g11495{
+
+
+    display:none;
+    @media(min-width: $tabletView){
+        display:block;
+        }
+
+}
+
+
+#sunflower{
+    transform: scale(0.8) translate(180.2px, 40px);
+    @media(min-width: $tabletView){
+        transform: scale(0.6) translate(400.2px, 210px);
+        }
+@media(min-width: $desktopView){
+    transform: scale(0.7) translate(170.2px, 70px);
+}
+   //transform:rotate(2deg);
+}
+
+@keyframes sunFlowerMove {
+    0% {}
+    100% {}
+
+}
