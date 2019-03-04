@@ -50,3 +50,8 @@ class Index extends Component {
 
 
 export default Index
+
+
+// exports.onInitialClientRender = () => {
+//     require("./index.scss");
+//   };
