@@ -11,22 +11,22 @@ class Contact extends Component{
     render(){
 
         return(
-            <form>
+            <form action="https://getform.io/f/c77c429b-86f7-4ec0-ae1e-c34b2c515a83 " method="POST">
             <label>
               Full Name:
-              <textarea />
+              <textarea name="fullName"/>
             </label>
             <label>
               Email:
-              <textarea />
+              <textarea name="email" />
             </label>
             <label>
               Phone:
-              <textarea />
+              <textarea name="phone"/>
             </label>
             <label>
               Message:
-              <textarea />
+              <textarea name="message"/>
             </label>
             <input type="submit" value="Submit" />
           </form>

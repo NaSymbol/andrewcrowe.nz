@@ -9,7 +9,7 @@ import "./index.scss";
 import Showcase from '../components/showcase';
 import ContactSection from '../components/contactSection';
 import Helmet from 'react-helmet'
-import SvgGarden from './components/svg-garden/svg-garden'
+import SvgGarden from '../components/svg-garden/svg-garden'
 
 // import CardSection from '../components/cardSection';
 
@@ -36,15 +36,7 @@ class Index extends Component {
 
       
             <SvgGarden/>
-            <object className="svg-animation" data = {
-                logo
-            }
-            type = "image/svg+xml" >
-            <
-            img src = "yourfallback.jpg"
-            alt = "" / >
-            <
-            /object>
+
             <Showcase/>
             <ContactSection/>
              <Footer / > < /div>

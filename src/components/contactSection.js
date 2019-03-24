@@ -10,16 +10,16 @@ class ContactSection extends Component {
             <div className="contact-section-heading">
             <h1>Contact Form</h1>
             </div>
-            <form>
+            <form action="https://formspree.io/1@andrewcrowe.nz" method="POST">
           
               <label for="fname">First Name</label>
-              <input type="text" id="fname" name="firstname" placeholder="Your name.."/>
+              <input type="text" id="fname" name="firstName" placeholder="Your name.."/>
 
               <label for="lname">Last Name</label>
-              <input type="text" id="lname" name="lastname" placeholder="Your last name.."/>
+              <input type="text" id="lname" name="lastName" placeholder="Your last name.."/>
 
               <label for="lname">Phone Number</label>
-              <input type="text" id="lname" name="lastname" placeholder="Your phone number.."/>
+              <input type="text" id="lname" name="phone" placeholder="Your phone number.."/>
               
               <label for="subject">Subject</label>
               <textarea id="subject" name="subject" placeholder="Write something.." ></textarea>
