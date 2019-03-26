@@ -71,6 +71,8 @@ $textBlack:rgb(138, 137, 137);
         // background-color:blue;
         margin-bottom:20px;
         max-width: 400px;
+        // maybe delete: fixes the width of each item
+        width:400px;
         @media(min-width: $tableView){
         margin-left:10px;
         margin-right:10px;
@@ -96,4 +98,43 @@ $textBlack:rgb(138, 137, 137);
 .filter{
 
 
+}
+
+
+// the buttons for all the items in the portfolio linking to code and demos
+$button--code:rgb(147, 168, 147);
+.button--code{
+    border: 2px solid $button--code;
+    color: $button--code;
+    &:hover{
+        color: white;
+        border: none;
+        background-color: $button--code;
+        border: 2px solid $button--code;
+    }
+}
+
+
+$button--demo: rgb(146, 165, 180);
+.button--demo{
+    border: 2px solid $button--demo;
+    color: $button--demo;
+    &:hover{
+        color: white;
+        border: none;
+        background-color: $button--demo;
+        border: 2px solid $button--demo;
+
+    }
+}
+.button{
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    background-color: white; 
 }

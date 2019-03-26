@@ -62,7 +62,7 @@ class Footer extends Component{
     
     
             <div className="bottomSection">
-                <p>Andrew Crowe Copyright 2018 all rights reserved</p>
+                <p>Andrew Crowe Copyright 2019 all rights reserved</p>
             </div>
     
     

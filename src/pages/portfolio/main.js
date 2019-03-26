@@ -2,7 +2,14 @@ import React, {
     Component
 } from 'react';
 import "./main.scss";
-import tac from '../../images/BulletinBoardApp.png';
+import bullet from '../../images/BulletinBoardApp.png';
+import completeautomation from '../../images/portfolio/CALsite.png';
+import taranakikarate from '../../images/portfolio/TKsite.png';
+import tac from '../../images/portfolio/apptictactoe.png';
+import moveAbroad from '../../images/portfolio/MoveAbroad.png';
+import newsApp from '../../images/portfolio/newsApp.png';
+import mockUI from '../../images/portfolio/mockUI.png';
+import gardenAni from '../../images/portfolio/gardenAni.png';
 
 
 import Layout from '../../components/layout'
@@ -12,9 +19,9 @@ function ShowcaseItems(props){
                 <div className="list--item">
                   <a ><img src={props.imageLocation}/></a>
                   <div className="list--item--text">
-                  <a href={props.code}>Code</a>
-                  <a href={props.demo}>Demo</a>
-                  {props.text}
+                  <a className="button button--code" href={props.code}>Code</a>
+                  <a className="button button--demo" href={props.demo}>Demo</a>
+                  <div>{props.text}</div>
                   </div>
                 </div>
     
@@ -36,7 +43,7 @@ this.state = {
     text: "Tic Tac Toe App",
     demo: 'https://apptictactoe.herokuapp.com/',
     code: 'https://github.com/NaSymbol/tiktac-toe',
-    tech: '',
+    tech: 'react, gatsby',
     showcase: true,
     web: true,
     react: true,
@@ -44,7 +51,7 @@ this.state = {
     UX: false
   },
   {
-    url: tac,
+    url: bullet,
     text: "Bulletin Board App",
     demo: 'https://bulletin-board-app.herokuapp.com/',
     code: 'https://github.com/NaSymbol/bulletinboard',
@@ -55,15 +62,16 @@ this.state = {
 
   },
   {
-    url: tac,
+    url: newsApp,
     text: "News App",
     demo: '',
     code: 'https://github.com/NaSymbol/News-App',
     web: false,
-    react: true
+    react: true,
+    showcase: true
   },
   {
-    url: "https://via.placeholder.com/500x250",
+    url: mockUI,
     text: "Vend.com Application Mock",
     demo: 'http://www.pbtech.com',
     code: 'http://www.github.com',
@@ -72,9 +80,33 @@ this.state = {
     UX: true
   },
   {
-    url: "https://via.placeholder.com/500x250",
+    url: taranakikarate,
     text: "Taranaki Karate",
     demo: 'http://taranakikarate.co.nz/',
+    code: '',
+    web: true,
+    react: false
+  },
+  {
+    url: completeautomation,
+    text: "Complete Automation Ltd",
+    demo: 'http://completeautomation.co.nz/',
+    code: '',
+    web: true,
+    react: false
+  },
+  {
+    url: moveAbroad,
+    text: "MoveAbroad Australia",
+    demo: '',
+    code: '',
+    web: true,
+    react: false
+  },
+  {
+    url: gardenAni,
+    text: "Snap.svg Garden Animaton",
+    demo: '',
     code: '',
     web: true,
     react: false

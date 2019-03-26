@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="269.40674"
+   height="38.576225"
+   viewBox="0 0 71.280531 10.206627"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="logo.svg"
+   inkscape:export-filename="D:\Projects\bulletinboard\src\images\logo.png"
+   inkscape:export-xdpi="100"
+   inkscape:export-ydpi="100">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.959798"
+     inkscape:cx="120.29275"
+     inkscape:cy="38.070043"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g4540"
+     showgrid="false"
+     units="px"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(21.316478,-279.2582)">
+    <g
+       id="g4540"
+       transform="matrix(0.69775587,0,0,0.69775587,7.788277,91.210994)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.8412962px;line-height:8.65080929px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#e3b591;fill-opacity:1;stroke:none;stroke-width:0.34603238"
+         x="-43.070393"
+         y="280.01901"
+         id="text4534"><tspan
+           sodipodi:role="line"
+           id="tspan4532"
+           x="-43.070393"
+           y="280.01901"
+           style="fill:#e3b591;fill-opacity:1;stroke-width:0.34603238">Bulletin</tspan></text>
+      <text
+         id="text4538"
+         y="280.01901"
+         x="8.2254152"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.8412962px;line-height:8.65080929px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#c5e0c7;fill-opacity:1;stroke:none;stroke-width:0.34603238"
+         xml:space="preserve"><tspan
+           style="fill:#c5e0c7;fill-opacity:1;stroke-width:0.34603238"
+           y="280.01901"
+           x="8.2254152"
+           id="tspan4536"
+           sodipodi:role="line">Board</tspan></text>
+      <g
+         id="g4551"
+         transform="matrix(0.5199184,0,0,0.5199184,39.670614,134.61319)">
+        <rect
+           ry="0.92044681"
+           y="277.42249"
+           x="18.241146"
+           height="10.156242"
+           width="21.715649"
+           id="rect4546"
+           style="opacity:1;fill:#c5e0c7;fill-opacity:1;stroke:none;stroke-width:0.37336725;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        <text
+           id="text4544"
+           y="286.35825"
+           x="19.002663"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:6.61458302px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#f1f1f1;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           xml:space="preserve"><tspan
+             style="fill:#f1f1f1;fill-opacity:1;stroke-width:0.26458332"
+             y="286.35825"
+             x="19.002663"
+             id="tspan4542"
+             sodipodi:role="line">APP</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
