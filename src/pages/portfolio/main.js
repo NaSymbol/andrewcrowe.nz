@@ -22,6 +22,7 @@ function ShowcaseItems(props){
                   <a className="button button--code" href={props.code}>Code</a>
                   <a className="button button--demo" href={props.demo}>Demo</a>
                   <div>{props.text}</div>
+                  <div>Tech Used: {props.tech}</div>
                   </div>
                 </div>
     
@@ -149,6 +150,7 @@ handleTest(text){
 
 
              {/* Filter Items List*/}
+             {/* must add conditonal render so that it stays displayed when clicked */}
              <div className="FilterItems">
              <div>
              <div onClick={() => this.handleTest('showcase')
@@ -191,7 +193,8 @@ handleTest(text){
                         imageLocation={item.url}
                         text={item.text}
                         code={item.code}
-                        demo={item.demo}         
+                        demo={item.demo}      
+                        tech={item.tech}   
                         />
                   )}
          

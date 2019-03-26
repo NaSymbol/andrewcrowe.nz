@@ -104,7 +104,7 @@ $textBlack:rgb(138, 137, 137);
 // the buttons for all the items in the portfolio linking to code and demos
 $button--code:rgb(147, 168, 147);
 .button--code{
-    border: 2px solid $button--code;
+    border: 2px solid white;
     color: $button--code;
     &:hover{
         color: white;
@@ -117,7 +117,7 @@ $button--code:rgb(147, 168, 147);
 
 $button--demo: rgb(146, 165, 180);
 .button--demo{
-    border: 2px solid $button--demo;
+    border: 2px solid white;
     color: $button--demo;
     &:hover{
         color: white;
@@ -128,6 +128,8 @@ $button--demo: rgb(146, 165, 180);
     }
 }
 .button{
+    // make the buttons take up much more room
+    // width:40%;
     padding: 6px 12px;
     text-align: center;
     text-decoration: none;
