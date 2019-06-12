@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@babel/core": "^7.3.4",
-    "gatsby": "^2.1.2",
+    "gatsby": "^2.7.3",
     "gatsby-link": "^2.0.14",
     "gatsby-plugin-react-helmet": "^3.0.6",
     "gatsby-plugin-sass": "^2.0.10",
