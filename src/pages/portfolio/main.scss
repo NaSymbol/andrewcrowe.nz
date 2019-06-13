@@ -13,6 +13,10 @@ $textBlack:rgb(138, 137, 137);
         margin-top:20px;
         margin-bottom:10px;
         color:$textBlack;
+
+        .ActiveItems{
+            color:rgb(53, 97, 53);
+        }
         div{
             font-size:1rem;
             @media(min-width: $desktopView){
@@ -69,11 +73,17 @@ $textBlack:rgb(138, 137, 137);
     }
     .list--item{
         // background-color:blue;
-        margin-bottom:20px;
+        margin-bottom:50px;
+        padding-top:20px;
         max-width: 400px;
+        //add border at bottom
+        border-top: .5px dotted lightgray;
         // maybe delete: fixes the width of each item
         width:400px;
         @media(min-width: $tableView){
+            //remove border for larger screens
+        border-top: none;
+        padding-top:0px;
         margin-left:10px;
         margin-right:10px;
         margin-bottom:50px;
@@ -104,7 +114,7 @@ $textBlack:rgb(138, 137, 137);
 // the buttons for all the items in the portfolio linking to code and demos
 $button--code:rgb(147, 168, 147);
 .button--code{
-    border: 2px solid white;
+    border: 2px solid $button--code;
     color: $button--code;
     &:hover{
         color: white;
@@ -117,7 +127,7 @@ $button--code:rgb(147, 168, 147);
 
 $button--demo: rgb(146, 165, 180);
 .button--demo{
-    border: 2px solid white;
+    border: 2px solid $button--demo;
     color: $button--demo;
     &:hover{
         color: white;
@@ -140,3 +150,4 @@ $button--demo: rgb(146, 165, 180);
     cursor: pointer;
     background-color: white; 
 }
+

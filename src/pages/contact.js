@@ -13,14 +13,18 @@ class Contact extends Component{
             <Layout>
             <div className="ContactPage">
                 <div>
-                <h1>Contact Me</h1>
-                <h2>Please contact me on the below details or use the form and i will get back to you.</h2>
-                <p> The best method for contacting me is through email and give a brief explaination of what you require and i'll do my best to get back to you. 
-                    </p>
-                    <p>The Contact Form would also be a great way as that is directly connected to my email address.
+                <h1>Contact Us</h1>
+                <p>
+                    For new online business enquiries please phone Andrew on +64 027 200 6439 or you can email him directly on 1@andrewcrowe.nz                </p>
+                <p>
+                    The Contact Form would also be a great way as that is directly connected to my email address.
                 </p>
-                <p><b>Email:</b> 1@andrewcrowe.nz</p>
-                <p><b>Phone:</b> (64) 027 200 6439</p>
+                <p>
+                    Alternatively, for more information on how we can help you with your online business, please fill in the Contact Us form below.
+                </p>
+                <p>
+                    NOTE: In the “Subject” box, you could put “A brief outline of the services you require,” or leave it blank.
+                </p>
                 </div>
                 
             </div>

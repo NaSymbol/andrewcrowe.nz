@@ -16,11 +16,15 @@ class About extends Component {
         return ( 
         <Layout >
             <div className="AboutSection">
-            <h1> About Me < /h1> 
-            <h2> A brief introduction about me and what i've done.</h2> 
-            <p> 
-            Over the last ten years, I have confidently designed websites for several different projects. I am confident and efficient with coding websites and applications using modern HTML, CSS and JavaScript.
-            </p>
+            <h1> About Us < /h1> 
+            <p> Andrew Crowe is a Freelance Web Developer based in New Plymouth. He can design and develop websites, programmes and apps for local and international clients. </p> 
+            <p>Web Developer</p>
+            <ul>
+                <li>Bachelor of Economics obtained from Canterbury University</li>
+                <li>Previous experience and background in electrical automation</li>
+                <li>Seasoned practitioner in web design, specialising in HTML, CSS and Javascript</li>
+                <li>Web design and development since 2009</li>
+            </ul>
             <img src={AboutMeM} alt=""></img>
             <p>
                 

@@ -2,14 +2,14 @@ import React, {
     Component
 } from 'react';
 import "./main.scss";
-import bullet from '../../images/portfolio/BulletinBoardApp.png';
-import completeautomation from '../../images/portfolio/CALsite.png';
-import taranakikarate from '../../images/portfolio/TKsite.png';
-import tac from '../../images/portfolio/apptictactoe.png';
-import moveAbroad from '../../images/portfolio/MoveAbroad.png';
-import newsApp from '../../images/portfolio/newsApp.png';
-import mockUI from '../../images/portfolio/mockUI.png';
-import gardenAni from '../../images/portfolio/gardenAni.png';
+import bullet from '../../images/portfolio/BulletinBoardApp.jpg';
+import completeautomation from '../../images/portfolio/CALsite.jpg';
+import taranakikarate from '../../images/portfolio/TKsite.jpg';
+import tac from '../../images/portfolio/apptictactoe.jpg';
+import moveAbroad from '../../images/portfolio/MoveAbroad.jpg';
+import newsApp from '../../images/portfolio/newsApp.jpg';
+import mockUI from '../../images/portfolio/mockUI.jpg';
+import gardenAni from '../../images/portfolio/gardenAni.jpg';
 
 
 import Layout from '../../components/layout'
@@ -21,6 +21,9 @@ function ShowcaseItems(props){
                   <div className="list--item--text">
                   <a className="button button--code" href={props.code}>Code</a>
                   <a className="button button--demo" href={props.demo}>Demo</a>
+                  {/* todo - should display case button if it has a case study  */}
+                  {props.case ? <a className="button button--code" href={props.code}>Case Study</a> : ''}
+
                   <div>{props.text}</div>
                   <div>Tech Used: {props.tech}</div>
                   </div>
@@ -43,8 +46,8 @@ this.state = {
     url: tac,
     text: "Tic Tac Toe App",
     demo: 'https://apptictactoe.herokuapp.com/',
-    code: 'https://github.com/NaSymbol/tiktac-toe',
-    tech: 'react, gatsby',
+    code: 'https://github.com/NaSymbol/tic-tac-toe',
+    tech: 'React, CSS, create-react-app, git',
     showcase: true,
     web: true,
     react: true,
@@ -67,6 +70,7 @@ this.state = {
     text: "News App",
     demo: '',
     code: 'https://github.com/NaSymbol/News-App',
+    tech: 'React, Html, CSS, Git, Responsive, newsapi.org, moment.js, grid, flex',
     web: false,
     react: true,
     showcase: true
@@ -153,15 +157,15 @@ handleTest(text){
              {/* must add conditonal render so that it stays displayed when clicked */}
              <div className="FilterItems">
              <div>
-             <div onClick={() => this.handleTest('showcase')
+             <div className={this.state.listItem === 'showcase'? 'ActiveItems' : 'nonActive'} onClick={() => this.handleTest('showcase')
               }>Showcase</div>
-             <div onClick={() => this.handleTest('all')
+             <div className={this.state.listItem === 'all'? 'ActiveItems' : 'nonActive'} onClick={() => this.handleTest('all')
               }>All</div>
-             <div onClick={() => this.handleTest('react')
+             <div className={this.state.listItem === 'react'? 'ActiveItems' : 'nonActive'} onClick={() => this.handleTest('react')
               }>React</div>
-                 <div onClick={() => this.handleTest('web')
+                 <div className={this.state.listItem === 'web'? 'ActiveItems' : 'nonActive'} onClick={() => this.handleTest('web')
               }>Web</div>
-                  <div onClick={() => this.handleTest('UX/UI')
+                  <div className={this.state.listItem === 'UX/UI'? 'ActiveItems' : 'nonActive'} onClick={() => this.handleTest('UX/UI')
               }>UX/UI</div>
      
               </div>
@@ -194,7 +198,8 @@ handleTest(text){
                         text={item.text}
                         code={item.code}
                         demo={item.demo}      
-                        tech={item.tech}   
+                        tech={item.tech} 
+                        case={item.case}  
                         />
                   )}
          
