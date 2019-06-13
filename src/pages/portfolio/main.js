@@ -2,7 +2,7 @@ import React, {
     Component
 } from 'react';
 import "./main.scss";
-import bullet from '../../images/BulletinBoardApp.png';
+import bullet from '../../images/portfolio/BulletinBoardApp.png';
 import completeautomation from '../../images/portfolio/CALsite.png';
 import taranakikarate from '../../images/portfolio/TKsite.png';
 import tac from '../../images/portfolio/apptictactoe.png';
