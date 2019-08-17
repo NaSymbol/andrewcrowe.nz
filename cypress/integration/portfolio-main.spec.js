@@ -8,8 +8,8 @@ context('Actions', () => {
   
 
 
-        const time = 500;
-        const timeToWait = 50;
+        const time = 50;
+        const timeToWait = 500;
         const pages = ['All', 'React', 'Web', 'UX/UI', 'Showcase']
 
         function checkNav(){
@@ -52,7 +52,14 @@ context('Actions', () => {
 
       })
    
+      it('View in Large desktop', () => {
+        cy.viewport(1824, 1400)
+        cy.get('footer').scrollIntoView({duration: time}) 
+  
 
+        checkNav()
+
+      })
 
     
 })

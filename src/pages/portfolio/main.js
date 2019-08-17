@@ -48,7 +48,7 @@ this.state = {
     text: "Tic Tac Toe App",
     demo: 'https://apptictactoe.herokuapp.com/',
     code: 'https://github.com/NaSymbol/tic-tac-toe',
-    tech: 'React, CSS, create-react-app, git',
+    tech: 'React, CSS, create-react-app, Figma, git',
     showcase: false,
     web: true,
     react: true,
@@ -60,10 +60,12 @@ this.state = {
     text: "Mobile Recipe App",
     demo: '',
     code: 'https://github.com/NaSymbol/RecipeMobileApp',
+    tech: 'React Native, Expo, Food2Fook API, git, Figma',
     showcase: true,
     web: false,
     react: true,
     UX: true
+  
 
   },
   {
@@ -71,6 +73,7 @@ this.state = {
     text: "Bulletin Board App",
     demo: 'https://bulletin-board-app.herokuapp.com/',
     code: 'https://github.com/NaSymbol/bulletinboard',
+    tech: 'React, SCSS, git, Figma',
     showcase: true,
     web: true,
     react: true,
@@ -82,7 +85,7 @@ this.state = {
     text: "News App",
     demo: 'https://news-app4.herokuapp.com/',
     code: 'https://github.com/NaSymbol/News-App',
-    tech: 'React, Html, CSS, Git, Responsive, newsapi.org, moment.js, grid, flex',
+    tech: 'React, Html, CSS, Git, Responsive, newsapi.org, moment.js, grid, Figma, flex',
     web: false,
     react: true,
     showcase: true
@@ -90,8 +93,9 @@ this.state = {
   {
     url: mockUI,
     text: "Vend.com Application Mock",
-    demo: 'http://www.pbtech.com',
-    code: 'http://www.github.com',
+    demo: '',
+    code: '',
+    tech: 'Figma',
     web: false,
     react: false,
     UX: true
@@ -101,6 +105,7 @@ this.state = {
     text: "Taranaki Karate",
     demo: 'http://taranakikarate.co.nz/',
     code: '',
+    tech: 'Html & CSS',
     web: true,
     react: false
   },
@@ -109,6 +114,7 @@ this.state = {
     text: "Complete Automation Ltd",
     demo: 'http://completeautomation.co.nz/',
     code: '',
+    tech: 'Html & CSS',
     web: true,
     react: false
   },
@@ -117,6 +123,7 @@ this.state = {
     text: "MoveAbroad Australia",
     demo: '',
     code: '',
+    tech: 'Html & CSS',
     web: true,
     react: false
   },
@@ -125,6 +132,7 @@ this.state = {
     text: "Snap.svg Garden Animaton",
     demo: '',
     code: '',
+    tech: 'SVG, CSS animations, Snap.svg',
     web: true,
     react: false
   },
