@@ -10,6 +10,7 @@ import moveAbroad from '../../images/portfolio/MoveAbroad.jpg';
 import newsApp from '../../images/portfolio/newsApp.jpg';
 import mockUI from '../../images/portfolio/mockUI.jpg';
 import gardenAni from '../../images/portfolio/gardenAni.jpg';
+import recipeApp from '../../images/portfolio/recipeApp.png';
 
 
 import Layout from '../../components/layout'
@@ -48,11 +49,22 @@ this.state = {
     demo: 'https://apptictactoe.herokuapp.com/',
     code: 'https://github.com/NaSymbol/tic-tac-toe',
     tech: 'React, CSS, create-react-app, git',
-    showcase: true,
+    showcase: false,
     web: true,
     react: true,
     app: true,
     UX: false
+  },
+  {
+    url: recipeApp,
+    text: "Mobile Recipe App",
+    demo: '',
+    code: 'https://github.com/NaSymbol/RecipeMobileApp',
+    showcase: true,
+    web: false,
+    react: true,
+    UX: true
+
   },
   {
     url: bullet,
@@ -68,7 +80,7 @@ this.state = {
   {
     url: newsApp,
     text: "News App",
-    demo: '',
+    demo: 'https://news-app4.herokuapp.com/',
     code: 'https://github.com/NaSymbol/News-App',
     tech: 'React, Html, CSS, Git, Responsive, newsapi.org, moment.js, grid, flex',
     web: false,

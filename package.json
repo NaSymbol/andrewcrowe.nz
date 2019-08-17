@@ -31,5 +31,12 @@
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "devDependencies": {
+    "babel-jest": "^24.9.0",
+    "babel-preset-gatsby": "^0.2.8",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^24.9.0",
+    "react-test-renderer": "^16.9.0"
   }
 }
