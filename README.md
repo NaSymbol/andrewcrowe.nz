@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.andrewcrowe.nz">
-    <img alt="Gatsby" src="./src/images/AndrewcroweNZ.png" width="450" />
+    <img alt="Gatsby" src="./src/images/logo.png" width="450" />
   </a>
 </p>
 <h1 align="center">
