@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.andrewcrowe.nz">
-    <img alt="Gatsby" src="./src/images/logo.png" width="450" />
+    <img alt="Gatsby" src="./src/images/logo.png" width="250" />
   </a>
 </p>
 <h1 align="center">
@@ -8,9 +8,10 @@
 </h1>
 
 <h2>Tech Used</h2>
-<p>E2E: Cypress</p>
-<p>Unit Testing: Jest, Enzyme</p>
-<p>Static site generator: Gatsby</p>
+<p><b>E2E:</b> Cypress</p>
+<p><b>Unit Testing:</b> Jest, Enzyme</p>
+<p><b>Static site generator:</b> Gatsby</p>
+<p><b>Framework:</b> React</p>
 
 
 
