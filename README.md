@@ -12,6 +12,8 @@
 <p><b>Unit Testing:</b> Jest, Enzyme</p>
 <p><b>Static site generator:</b> Gatsby</p>
 <p><b>Framework:</b> React</p>
+<p><b>CSS:</b> SCSS </p>
+
 
 
 
@@ -22,6 +24,9 @@
 ## Commands
 
 <ul>
+<p>to start development mode</p>
   <li>gatsby develop </li>
   <li>gatsby build </li>
+  <li>gatsby serve</li>
+  <li>npx cypress open</li>
 </ul>

@@ -5,12 +5,40 @@ import "./Header.scss";
 //import "./snap.svg-min";
 
 class Header extends Component{
+constructor(props) {
+    super(props);
+    this.state = {
+        mobileMenu: true,
+    }
+    this.showMenu = this.showMenu.bind(this);
+}
 
+showMenu(){
+    this.setState({
+        mobileMenu: !this.state.mobileMenu
+    })
+
+}
 
     render(){
         return(
             <div className="container-fluid">
-<nav className="nav-top">
+
+
+<Link to="./">
+    <div className="logo">
+
+    </div>
+    </Link>
+    <nav className="menu--small" onClick={()=> this.showMenu()}>
+                <div>
+                    <div className="navMenu"></div>
+                    <div className="navMenu"></div>
+                    <div className="navMenu"></div>
+                </div>
+
+    </nav>  
+<nav className={"nav-top " + (this.state.mobileMenu ? "active" : "not-active") }>
 <ul>
            <li><Link to="portfolio/main">Portfolio</Link></li>
            {/* <li><Link to="blog/main">Blog</Link></li> */}
@@ -18,18 +46,7 @@ class Header extends Component{
            <li><Link to="contact">Contact</Link></li>
        </ul>
 </nav>
-<Link to="./">
-    <div className="logo">
 
-    </div>
-    </Link>
-    {/* <nav className="menu--small">
-                <div>
-                    <div className="navMenu"></div>
-                    <div className="navMenu"></div>
-                    <div className="navMenu"></div>
-                </div>
-    </nav>   */}
 
 </div>
         )

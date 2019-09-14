@@ -1,18 +1,13 @@
 import React, {
     Component
 } from 'react';
+
+import { Link } from "gatsby"
+
 import "./main.scss";
-import bullet from '../../images/portfolio/BulletinBoardApp.jpg';
-import completeautomation from '../../images/portfolio/CALsite.jpg';
-import taranakikarate from '../../images/portfolio/TKsite.jpg';
-import tac from '../../images/portfolio/apptictactoe.jpg';
-import moveAbroad from '../../images/portfolio/MoveAbroad.jpg';
-import newsApp from '../../images/portfolio/newsApp.jpg';
-import mockUI from '../../images/portfolio/mockUI.jpg';
-import gardenAni from '../../images/portfolio/gardenAni.jpg';
-import recipeApp from '../../images/portfolio/recipeApp.png';
 
 
+import dataFile from './data';
 import Layout from '../../components/layout'
 
 function ShowcaseItems(props){
@@ -20,11 +15,12 @@ function ShowcaseItems(props){
                 <div className="list--item">
                   <a ><img src={props.imageLocation}/></a>
                   <div className="list--item--text">
-                  <a className="button button--code" href={props.code}>Code</a>
-                  <a className="button button--demo" href={props.demo}>Demo</a>
+                  {props.code ? <a className="button button--code" href={props.code}>Code</a> : ''}
+                  {props.demo ? <a className="button button--demo" href={props.demo}>Demo</a> : ''}
                   {/* todo - should display case button if it has a case study  */}
-                  {props.case ? <a className="button button--code" href={props.code}>Case Study</a> : ''}
-
+                  {props.case ? <Link className="button button--code" to={props.casestudy}>Case Study</Link> : ''}
+                  {/* Figma link  */}
+                  {props.figma ? <a className="button button--demo" href={props.demo}>Figma</a>  : ''}
                   <div>{props.text}</div>
                   <div>Tech Used: {props.tech}</div>
                   </div>
@@ -43,108 +39,7 @@ super(props);
 
 this.state = {
   listItem: 'showcase',
-  items:[{
-    url: tac,
-    text: "Tic Tac Toe App",
-    demo: 'https://apptictactoe.herokuapp.com/',
-    code: 'https://github.com/NaSymbol/tic-tac-toe',
-    tech: 'React, CSS, create-react-app, Figma, git',
-    showcase: false,
-    web: true,
-    react: true,
-    app: true,
-    UX: false
-  },
-  {
-    url: recipeApp,
-    text: "Mobile Recipe App",
-    demo: '',
-    code: 'https://github.com/NaSymbol/RecipeMobileApp',
-    tech: 'React Native, Expo, Food2Fook API, git, Figma',
-    showcase: true,
-    web: false,
-    react: true,
-    UX: true
-  
-
-  },
-  {
-    url: bullet,
-    text: "Bulletin Board App",
-    demo: 'https://bulletin-board-app.herokuapp.com/',
-    code: 'https://github.com/NaSymbol/bulletinboard',
-    tech: 'React, SCSS, git, Figma',
-    showcase: true,
-    web: true,
-    react: true,
-    UX: true
-
-  },
-  {
-    url: newsApp,
-    text: "News App",
-    demo: 'https://news-app4.herokuapp.com/',
-    code: 'https://github.com/NaSymbol/News-App',
-    tech: 'React, Html, CSS, Git, Responsive, newsapi.org, moment.js, grid, Figma, flex',
-    web: false,
-    react: true,
-    showcase: true
-  },
-  {
-    url: mockUI,
-    text: "Vend.com Application Mock",
-    demo: '',
-    code: '',
-    tech: 'Figma',
-    web: false,
-    react: false,
-    UX: true
-  },
-  {
-    url: taranakikarate,
-    text: "Taranaki Karate",
-    demo: 'http://taranakikarate.co.nz/',
-    code: '',
-    tech: 'Html & CSS',
-    web: true,
-    react: false
-  },
-  {
-    url: completeautomation,
-    text: "Complete Automation Ltd",
-    demo: 'http://completeautomation.co.nz/',
-    code: '',
-    tech: 'Html & CSS',
-    web: true,
-    react: false
-  },
-  {
-    url: moveAbroad,
-    text: "MoveAbroad Australia",
-    demo: '',
-    code: '',
-    tech: 'Html & CSS',
-    web: true,
-    react: false
-  },
-  {
-    url: gardenAni,
-    text: "Snap.svg Garden Animaton",
-    demo: '',
-    code: '',
-    tech: 'SVG, CSS animations, Snap.svg',
-    web: true,
-    react: false
-  },
-  // {
-  //   url: "https://via.placeholder.com/500x250",
-  //   text: "text inside array 4",
-  //   demo: 'http://www.pbtech.com',
-  //   code: 'http://www.github.com',
-  //   web: true,
-  //   react: true
-  // },
-  ]
+  items: dataFile
 
 }
 
@@ -219,7 +114,9 @@ handleTest(text){
                         code={item.code}
                         demo={item.demo}      
                         tech={item.tech} 
-                        case={item.case}  
+                        case={item.case}
+                        casestudy={item.casestudy} 
+                        figma={item.figma}
                         />
                   )}
          

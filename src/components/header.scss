@@ -1,4 +1,7 @@
 
+
+// Styles the logo
+// TODO: remove the hover effect for the logo
     .logo {
         float:right;
         background-image: url(../images/logo-min.svg);
@@ -34,8 +37,50 @@
         background-color:rgb(61, 61, 61);
     }
 
+.active{
+    display: block;
+}
+.not-active{
+    display: none;
+}
+
+// Over 768px Naviagtion Menu
     nav.nav-top{
-        display:none;
+        // display:none;
+
+        // display:block;
+        float:right;
+        color:white;
+        margin-top: 21px;
+        width:100%;
+        margin-bottom:30px;
+        li{
+            
+          
+            border-bottom-color: white;
+            border-bottom-width: 1px;
+            border-bottom-style: solid;
+
+            a{
+                background-color:#b5bffc;
+                color:white;
+                 text-decoration: none; 
+                 display:block;
+                 color: white;
+                 padding: 14px 16px;
+                 text-decoration: none;
+                 font-size: 17px;
+                 display: block;
+            }
+            a:hover{
+                color:gray;
+                
+                // text-decoration: underline; 
+
+            }
+        }
+
+
     
         @media(min-width:768px) {
         display: block;
@@ -71,20 +116,28 @@
     
 
 
-    .navMenu{
-        margin-bottom: 7px;
-        width: 50px;
-        height: 10px;
-        background-color: white;
-    }
 
+
+
+// Small nav menu under 768px
     .menu--small{
         display:block;
         margin-left: 33px;
-    margin-top: 30px;
-    float: left;
+        margin-top: 35px;
+        float: left;
         
+
+        // turn display off when over 768px
         @media(min-width: 768px){
             display:none;
         }
+    }
+
+
+// Small Nav Icon Blocks
+    .navMenu{
+        margin-bottom: 5px;
+        width: 50px;
+        height: 5px;
+        background-color: white;
     }

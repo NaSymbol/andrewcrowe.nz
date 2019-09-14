@@ -1,0 +1,98 @@
+@import '../_variables.scss';
+
+
+.casestudy{
+    color: $textBlack;
+
+    margin-bottom: 80px;
+ 
+}
+
+.center-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+
+}
+
+.UIUX img{
+    // float:left;
+
+
+
+}
+.section{
+
+    
+
+    @media(min-width: 768px){
+        display:flex;
+        align-items:center;
+        // justify-content: center;
+        p{
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+    }
+
+}
+
+.title{
+    margin-top:30px;
+    margin-bottom: 30px;
+    font-size: 3em;
+    // color: $button--code;
+}
+
+.introduction{
+
+
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+    h2{
+        text-align: center;
+        // text-decoration: underline;
+        color:white;
+        background-color: $button--code;
+    }
+}
+
+.casestudy{
+
+img{
+    width:100%;
+    @media(min-width: $tableView){
+        max-width: 400px;
+        height: 200px;
+            }
+    @media(min-width: $desktopView){
+
+    }
+}
+
+}
+
+
+.section-heading{
+            text-align: center;
+            color:white;
+            background-color: $button--code;
+
+            @media(min-width: $tableView){
+                font-size: 32px;
+                padding-top:3px;
+                padding-bottom:3px;
+            }
+}
+
+.section-block{
+
+    @media(min-width: $desktopView){
+        max-width: 1000px;   
+        margin: 0 auto;
+    }
+}
+
