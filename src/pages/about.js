@@ -14,11 +14,11 @@ class About extends Component {
 
     render() {
         return ( 
-        <Layout >
+        <Layout>
             <div className="AboutSection">
-            <h1> About Us < /h1> 
+            <h1> About Us </h1> 
             <p> Andrew Crowe is a Freelance Web Developer based in New Plymouth. He can design and develop websites, programmes and apps for local and international clients. </p> 
-            <p>Web Developer</p>
+            <h2>Web Developer</h2>
             <ul>
                 <li>Bachelor of Economics obtained from Canterbury University</li>
                 <li>Previous experience and background in electrical automation</li>

@@ -46,9 +46,7 @@
 
 // Over 768px Naviagtion Menu
     nav.nav-top{
-        // display:none;
 
-        // display:block;
         float:right;
         color:white;
         margin-top: 21px;
@@ -75,7 +73,7 @@
             a:hover{
                 color:gray;
                 
-                // text-decoration: underline; 
+                text-decoration: underline; 
 
             }
         }
@@ -86,6 +84,9 @@
         display: block;
         float:right;
         color:white;
+        margin-top: unset;
+        margin-bottom: unset;
+        width: unset;
         // margin-left:20px;
         ul{
             margin-right:40px;
@@ -96,6 +97,7 @@
             display:inline-block;
             margin-left:20px;
             font-size:25px;
+            border-bottom-style:none;
             // margin-top:20px;
         }
         li{
@@ -103,7 +105,9 @@
             a{
                 color:white;
                  text-decoration: none; 
-
+                 background-color:rgb(61, 61, 61);
+                 padding: 0px;
+                font-size: unset;
             }
             a:hover{
                 color:gray;

@@ -1,12 +1,10 @@
 // VARIABLES
-$textBlack: gray;
-$mobileView: 320px;
-$tableView: 768px;
-$desktopView: 1024px;
+@import './_variables.scss';
+
 
 .AboutSection{
-display:flex;
-flex-direction: column;
+// display:flex;
+// flex-direction: column;
 @media(min-width:$desktopView){
         width:50%;
         margin: 0 auto;
@@ -39,9 +37,13 @@ flex-direction: column;
         }
     }
     ul{
+        margin: 0 auto;
+        margin-bottom: 20px;
         li{
+        margin-top:3px;
+        margin-bottom:3px;
         color:$textBlack;
-        // text-decoration: none;
+        text-decoration: dotted;
         }
     }
 }

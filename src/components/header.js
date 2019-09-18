@@ -8,7 +8,7 @@ class Header extends Component{
 constructor(props) {
     super(props);
     this.state = {
-        mobileMenu: true,
+        mobileMenu: false,
     }
     this.showMenu = this.showMenu.bind(this);
 }
