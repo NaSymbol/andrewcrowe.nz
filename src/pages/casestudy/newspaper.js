@@ -21,11 +21,11 @@ constructor(props){
     super(props);
     
     this.state = {
-        title: 'Tic Tac Toe App',
+        title: 'Newspaper App',
         description: 'The purpose of this app is that it allows two players to play Tic Tac Toe against each other. This project was base on the tutorial from the React.JS main website and then built upon it. The figma link is the UI/UX of the app with prototyping. The Github links to the code where you can download the code and run it for yourself. ',
         figma: 'https://www.figma.com/file/SKElDxkuOSNtlpqBmTcVLACs/Projects-tic-tac-toe?node-id=1%3A2',
-        github: 'https://github.com/NaSymbol/tic-tac-toe',
-        demo: 'https://apptictactoe.herokuapp.com/',
+        github: 'https://github.com/NaSymbol/News-App',
+        demo: 'https://news-app4.herokuapp.com/',
         UIimage: 'https://via.placeholder.com/150',
         figmaImages: [{image: figma1, id: 1},{image: figma2, id: 2},{image: figma3, id: 3},{image: figma4, id: 4},{image: figma5, id: 5}],
         conclusionDescr: 'Finishing off the app and upload it to the server. Below is a link to the demo of the app working. Where you can go and test out how the app works.',

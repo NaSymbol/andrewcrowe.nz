@@ -21,7 +21,7 @@ constructor(props){
     super(props);
     
     this.state = {
-        title: 'Tic Tac Toe App',
+        title: 'Mobile Recipe App',
         description: 'The purpose of this app is that it allows two players to play Tic Tac Toe against each other. This project was base on the tutorial from the React.JS main website and then built upon it. The figma link is the UI/UX of the app with prototyping. The Github links to the code where you can download the code and run it for yourself. ',
         figma: 'https://www.figma.com/file/SKElDxkuOSNtlpqBmTcVLACs/Projects-tic-tac-toe?node-id=1%3A2',
         github: 'https://github.com/NaSymbol/tic-tac-toe',

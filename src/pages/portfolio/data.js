@@ -9,6 +9,7 @@ import newsApp from '../../images/portfolio/newsApp.jpg';
 import mockUI from '../../images/portfolio/mockUI.jpg';
 import gardenAni from '../../images/portfolio/gardenAni.jpg';
 import recipeApp from '../../images/portfolio/recipeApp.png';
+import portfolioIMG from '../../images/portfolio/portfolio.png';
 
 
 const dataFile = [{
@@ -16,10 +17,9 @@ const dataFile = [{
     text: "Tic Tac Toe App",
     demo: 'https://apptictactoe.herokuapp.com/',
     code: 'https://github.com/NaSymbol/tic-tac-toe',
-    figma: '',
+    figma: 'https://www.figma.com/file/SKElDxkuOSNtlpqBmTcVLACs/Projects-tic-tac-toe?node-id=1%3A2',
     tech: 'React, CSS, create-react-app, Figma, git',
     casestudy: 'casestudy/tictactoeapp',
-    case: 'casestudy/tictactoeapp',
     showcase: false,
     web: true,
     react: true,
@@ -32,6 +32,7 @@ const dataFile = [{
     demo: '',
     figma: 'https://www.figma.com/file/fzaVq9tBHfUETIxhYhzToQRm/Projects-RecipeMobileApp?node-id=71%3A175',
     code: 'https://github.com/NaSymbol/RecipeMobileApp',
+    casestudy: 'casestudy/recipeapp',
     tech: 'React Native, Expo, Food2Fook API, git, Figma',
     showcase: true,
     web: false,
@@ -47,6 +48,7 @@ const dataFile = [{
     code: 'https://github.com/NaSymbol/bulletinboard',
     tech: 'React, SCSS, git, Figma',
     figma: 'https://www.figma.com/file/JX4PYu8qq9R8T2a1nAYnO5O4/Projects-BulletinBoard?node-id=62%3A94',
+    casestudy: 'casestudy/bulletinboard',
     showcase: true,
     web: true,
     react: true,
@@ -58,7 +60,9 @@ const dataFile = [{
     text: "News App",
     demo: 'https://news-app4.herokuapp.com/',
     code: 'https://github.com/NaSymbol/News-App',
+    figma: '',
     tech: 'React, Html, CSS, Git, Responsive, newsapi.org, moment.js, grid, Figma, flex',
+    casestudy: 'casestudy/newspaper',
     web: false,
     react: true,
     showcase: true
@@ -110,6 +114,16 @@ const dataFile = [{
     web: true,
     react: false
   },
+    {
+    url: portfolioIMG,
+    text: "Portfolio Site",
+    demo: '',
+    code: 'https://github.com/NaSymbol/andrewcrowe.nz',
+    figma: 'https://www.figma.com/file/MPwfkStmmxGPhDA2lTOnjat6/Projects-AndrewCrowe.nz?node-id=1%3A2',
+    web: true,
+    react: true,
+
+  }
   // {
   //   url: "https://via.placeholder.com/500x250",
   //   text: "text inside array 4",

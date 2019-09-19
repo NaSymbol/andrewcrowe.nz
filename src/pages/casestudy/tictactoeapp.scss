@@ -58,6 +58,21 @@
         color:white;
         background-color: $button--code;
     }
+
+    
+        h3{
+            font-weight: 800;
+            margin-bottom: 10px;
+            }
+    ul{
+        text-style: unset;
+    }
+
+    div{
+        margin: 0 auto;
+    }
+    
+
 }
 
 .casestudy{
@@ -65,8 +80,8 @@
 img{
     width:100%;
     @media(min-width: $tableView){
-        max-width: 400px;
-        height: 200px;
+        max-width: 450px;
+        // height: 200px;
             }
     @media(min-width: $desktopView){
 
@@ -96,3 +111,31 @@ img{
     }
 }
 
+
+.section-images{
+    // margin: 0 auto;
+    display:flex;
+    // flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    img{
+        padding-bottom: 5px;
+        @media (min-width: $desktopView) {
+            padding-left: 2px;
+            padding-right: 2px;
+
+        }
+    }
+}
+
+.conclusion-section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    .button{
+        min-width: 250px;
+        font-size: 24px;
+        font-weight: 900;
+    }
+}

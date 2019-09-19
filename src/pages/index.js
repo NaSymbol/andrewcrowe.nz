@@ -2,9 +2,9 @@ import React, {
     Component
 } from 'react';
 
-import Header from '../components/Header';
-import Footer from '../components/Footer';
-import logo from './svgP.svg';
+import Header from '../components/header';
+import Footer from '../components/footer';
+// import logo from './svgP.svg';
 import "./index.scss";
 import Showcase from '../components/showcase';
 import ContactSection from '../components/contactSection';

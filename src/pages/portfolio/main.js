@@ -15,12 +15,12 @@ function ShowcaseItems(props){
                 <div className="list--item">
                   <a ><img src={props.imageLocation}/></a>
                   <div className="list--item--text">
-                  {props.code ? <a className="button button--code" href={props.code}>Code</a> : ''}
-                  {props.demo ? <a className="button button--demo" href={props.demo}>Demo</a> : ''}
+                  {props.code ? <a target="_blank" rel="noopener" className="button button--code" href={props.code}>Code</a> : ''}
+                  {props.demo ? <a target="_blank" rel="noopener" className="button button--demo" href={props.demo}>Demo</a> : ''}
                   {/* todo - should display case button if it has a case study  */}
-                  {props.case ? <Link className="button button--code" to={props.casestudy}>Case Study</Link> : ''}
+                  {props.casestudy ? <Link className="button button--code" to={props.casestudy}>Case Study</Link> : ''}
                   {/* Figma link  */}
-                  {props.figma ? <a className="button button--demo" href={props.demo}>Figma</a>  : ''}
+                  {props.figma ? <a target="_blank" rel="noopener" className="button button--demo" href={props.figma}>Figma</a>  : ''}
                   <div>{props.text}</div>
                   <div>Tech Used: {props.tech}</div>
                   </div>
