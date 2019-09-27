@@ -76,3 +76,5 @@ class Footer extends Component{
 
 
 export default Footer
+
+// TODO: fix the footer links so they open a page
