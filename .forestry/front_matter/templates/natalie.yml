@@ -1,4 +1,16 @@
 ---
 label: natalie
 hide_body: false
-fields: []
+fields:
+- name: key
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: key
